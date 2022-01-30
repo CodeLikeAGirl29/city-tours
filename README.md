@@ -3,7 +3,7 @@ Made with
 
 ![Made with love in United States](https://madewithlove.now.sh/us?heart=true&colorA=%239c9c9c&template=flat-square)
 
-# City Tours App
+# <span style="color:red">City Tours App</span>
 
 Made by Lindsey to demonstrate my understanding of Reactjs. :) I've created a card-like theme that presents the user with a list of cities and a description of the city. Theres also an Attractions slide that shows user's a list of attractions for each city.
 
