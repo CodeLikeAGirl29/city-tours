@@ -1,5 +1,5 @@
-<img align="left" alt="react" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" />
-
+Made with 
+![reactjs shield](https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 ![Made with love in United States](https://madewithlove.now.sh/us?heart=true&colorA=%239c9c9c&template=flat-square)
 
