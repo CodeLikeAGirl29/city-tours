@@ -19,6 +19,7 @@ body {
 }
 h1,
 h2,
+h3,
 ul {
   margin: 0;
   padding: 0;
@@ -26,6 +27,11 @@ ul {
 h2 {
   color: #404040;
   font-size: 1.6em;
+  margin-bottom: 1.25em;
+}
+h3 {
+  color: #404040;
+  font-size: 1em;
   margin-bottom: 1.25em;
 }
 ul {
