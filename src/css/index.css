@@ -113,6 +113,10 @@ header {
   text-align: center;
 }
 
+.city-logo {
+ width: 70px;
+}
+
 /* MAIN NAV -------- */
 
 .main-nav a {
