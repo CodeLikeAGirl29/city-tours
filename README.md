@@ -6,6 +6,8 @@ Made with
 
 # City Tours App
 
+[![CodeFactor](https://www.codefactor.io/repository/github/codelikeagirl29/city-tours/badge)](https://www.codefactor.io/repository/github/codelikeagirl29/city-tours)
+
 Made by <span style="color:red">Lindsey</span> to demonstrate my understanding of Reactjs. :) I've created a card-like theme that presents the user with a list of cities and a description of the city. Theres also an Attractions slide that shows user's a list of attractions for each city.
 
 ---
