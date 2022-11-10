@@ -1,12 +1,12 @@
-import React from "react";
-import Img from "../data/city-tours-app.jpg";
+import React from 'react';
+import Img from '../data/city-tours-app.jpg';
 
 const About = (props) => (
-	<div class='row'>
-		<div class='col s12 m6'>
-			<div class='card blue-grey darken-1'>
-				<div class='card-content white-text'>
-					<h2 class='card-title'>{props.title}</h2>
+	<div className='row'>
+		<div className='col s12 m6'>
+			<div className='card blue-grey darken-1'>
+				<div className='card-content white-text'>
+					<h2 className='card-title'>{props.title}</h2>
 					<p>
 						"Travel is the main thing you purchase that makes you more
 						extravagant”.
@@ -19,7 +19,7 @@ const About = (props) => (
 						administrations. We rouse our clients to carry on with a rich life,
 						brimming with extraordinary travel encounters.
 					</p>
-					<img className='cityLogo' src={Img} alt='City Logo' />
+					<img classNameName='cityLogo' src={Img} alt='City Logo' />
 				</div>
 			</div>
 		</div>

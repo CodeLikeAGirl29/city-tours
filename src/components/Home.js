@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-class Home extends Component {    
+className Home extends Component {    
   
   render() {
     return (
-      <div className="main-content home">
+      <div classNameName="main-content home">
         <h2>City Tours App</h2>
       <h3>Created by Lindsey</h3>
         <p>This fun directory is a project I made called <em>City Tours</em>.</p>
