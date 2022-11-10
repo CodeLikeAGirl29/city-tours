@@ -6,6 +6,8 @@ Made with
 
 # City Tours App
 
+[![DeepScan grade](https://deepscan.io/api/teams/16980/projects/20311/branches/550140/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=16980&pid=20311&bid=550140)
+
 Made by <span style="color:red">Lindsey</span> to demonstrate my understanding of Reactjs. :) I've created a card-like theme that presents the user with a list of cities and a description of the city. Theres also an Attractions slide that shows user's a list of attractions for each city.
 
 ---
