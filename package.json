@@ -2,7 +2,7 @@
     "name": "city-tours",
     "version": "0.1.0",
     "engines": {
-        "node": "18.12.0",
+        "node": "16.x",
         "npm": "8.19.2"
     },
     "private": true,
