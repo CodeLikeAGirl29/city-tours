@@ -60,8 +60,8 @@ hr {
 .home a,
 input,
 button {
-  padding: .5em;
-  font-size: .9em;
+  padding: 0.5em;
+  font-size: 0.9em;
   margin-right: 10px;
   border: none;
   border-radius: 3px;
@@ -88,7 +88,7 @@ button {
   padding-bottom: 2em;
   margin: 0 auto 2em;
   background: #fff;
-  border-radius: .5em;
+  border-radius: 0.5em;
   box-shadow: 0 3px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -131,10 +131,35 @@ header {
   width: 70px;
 }
 
+/* ATTRACTION NAV -------- */
+
+.attraction-nav li {
+  display: inline-block;
+}
+
+.attraction-nav li+li {
+  margin-left: 0.6em;
+}
+
+.attraction-nav a {
+  font-size: 0.85em;
+  color: #7d7d7d;
+  padding: 0.2em 0.8em;
+  border-radius: 0.25em;
+  background: #eaebeb;
+  transition: 0.2s;
+}
+
+.attraction-nav a:hover,
+.attraction-nav a.active {
+  color: #fff;
+  background: #39add1;
+}
+
 /* MAIN NAV -------- */
 
 .main-nav a {
-  font-size: .95em;
+  font-size: 0.95em;
   color: #222;
   text-align: center;
   text-transform: uppercase;
@@ -147,31 +172,6 @@ header {
 .main-nav .active {
   color: #fff;
   background: #3b80d1;
-}
-
-/* ATTRACTION NAV -------- */
-
-.attraction-nav li {
-  display: inline-block;
-}
-
-.attraction-nav li+li {
-  margin-left: 0.6em;
-}
-
-.attraction-nav a {
-  font-size: .85em;
-  color: #7d7d7d;
-  padding: .2em .8em;
-  border-radius: .25em;
-  background: #eaebeb;
-  transition: .2s;
-}
-
-.attraction-nav a:hover,
-.attraction-nav a.active {
-  color: #fff;
-  background: #39add1;
 }
 
 /* ICONS -------- */
@@ -189,7 +189,7 @@ header {
 
 .icn-error {
   font-size: 3.2em;
-  margin-bottom: .25em;
+  margin-bottom: 0.25em;
 }
 
 /* ================================= 
@@ -199,7 +199,7 @@ header {
 @media (min-width: 0) and (max-width: 768px) {
 
   body {
-    padding-top: .8em;
+    padding-top: 0.8em;
   }
 
   .home a {
@@ -219,7 +219,7 @@ header {
   }
 
   .main-nav a:hover {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, 0.1);
   }
 
   .attractions h2 {
@@ -295,7 +295,7 @@ header {
   }
 
   .main-nav a:hover {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, 0.1);
   }
 
   /* attraction NAV -------- */
