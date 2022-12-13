@@ -52,7 +52,7 @@ hr {
   border: 0;
   height: 0;
   margin: 2.3em 0 2em 0;
-  border-top: 1px solid rgba(0, 0, 0, .1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* FORM & BUTTON STYLES -------- */
@@ -75,7 +75,7 @@ button {
   padding-left: 1em;
   padding-right: 1em;
   cursor: pointer;
-  border-color: rgba(0,0,0, .1);
+  border-color: rgba(0, 0, 0, 0.1);
 }
 
 /* ================================= 
@@ -89,7 +89,7 @@ button {
   margin: 0 auto 2em;
   background: #fff;
   border-radius: .5em;
-  box-shadow: 0 3px rgba(0,0,0, .1);
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
@@ -120,7 +120,7 @@ header {
 
 .city-img {
   width: 100%;
-  border-radius: .3em;
+  border-radius: 0.3em;
 }
 
 .not-found {
@@ -128,7 +128,7 @@ header {
 }
 
 .city-logo {
- width: 70px;
+  width: 70px;
 }
 
 /* MAIN NAV -------- */
@@ -140,7 +140,7 @@ header {
   text-transform: uppercase;
   display: block;
   padding: 1em;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .main-nav a:hover,
@@ -155,8 +155,8 @@ header {
   display: inline-block;
 }
 
-.attraction-nav li + li {
-  margin-left: .6em;
+.attraction-nav li+li {
+  margin-left: 0.6em;
 }
 
 .attraction-nav a {
@@ -196,113 +196,113 @@ header {
   MEDIA QUERIES
 ==================================== */
 
-@media (min-width: 0) and (max-width: 768px) { 
-  
+@media (min-width: 0) and (max-width: 768px) {
+
   body {
     padding-top: .8em;
   }
-  
+
   .home a {
     border-color: transparent;
   }
-  
-   .icn-logo {
-     display: block;
-     width: 100%;
-     text-align: center;
-     padding-bottom: 4px;
-   }
-  
-   .main-nav a {
-     border-top: 2px solid transparent;
-     border-bottom: 2px solid transparent;
-   }
-  
-   .main-nav a:hover {
-     border-color: rgba(0,0,0, .1);
-   }
-  
-   .attractions h2 {
-     margin-bottom: 0;
-   }
-  
-   .attraction-nav {
-     display: block;
-     margin: 1.5em 0 3.2em;
-   }
-  
-   .home a,
-   input,
-   button {
-     display: block;
-     width: 100%;
-     margin-bottom: 1em;
-   }
+
+  .icn-logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 4px;
+  }
+
+  .main-nav a {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+
+  .main-nav a:hover {
+    border-color: rgba(0, 0, 0, .1);
+  }
+
+  .attractions h2 {
+    margin-bottom: 0;
+  }
+
+  .attraction-nav {
+    display: block;
+    margin: 1.5em 0 3.2em;
+  }
+
+  .home a,
+  input,
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }
 
 @media (min-width: 769px) {
-  
+
   body {
     padding-top: 3em;
   }
-  
+
   .home a {
     border-color: #3b80d1;
   }
-  
+
   .media img,
-  .media > div,
+  .media>div,
   .city {
     float: left;
   }
-  
-  .media > div {
+
+  .media>div {
     width: 85.1%;
     margin-left: 1.5em;
-  } 
-  
+  }
+
   .city {
     width: 48.73%;
     margin-bottom: 1.5em;
   }
-  
-  .city + .city {
+
+  .city+.city {
     margin-left: 2.54%;
   }
-  
+
   .city:nth-child(2n+3) {
     clear: left;
     margin-left: 0;
   }
-  
+
   /* MAIN NAV -------- */
-  
+
   .icn-logo {
     margin-right: auto;
     padding: 0 2em;
   }
-  
+
   header,
   .main-nav {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .main-nav a {
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
     padding: 1.25em 1.5em;
   }
-  
+
   .main-nav a:hover {
-    border-color: rgba(0,0,0, .1);
+    border-color: rgba(0, 0, 0, .1);
   }
-  
+
   /* attraction NAV -------- */
   .attraction-nav {
     float: right;
-  } 
-  
+  }
+
   .attractions h2 {
     float: left;
   }
