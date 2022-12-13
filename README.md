@@ -4,6 +4,8 @@ Made with
 
 ![Made with love in United States](https://madewithlove.now.sh/us?heart=true&colorA=%239c9c9c&template=flat-square)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/6a641e7e3ad04b219ac767641eb8a2fa)](https://www.codacy.com/gh/CodeLikeAGirl29/city-tours/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CodeLikeAGirl29/city-tours&amp;utm_campaign=Badge_Grade)
+
 # City Tours App
 
 [![DeepScan grade](https://deepscan.io/api/teams/16980/projects/20311/branches/550140/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=16980&pid=20311&bid=550140)
