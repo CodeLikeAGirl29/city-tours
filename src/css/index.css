@@ -11,12 +11,14 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   color: #576366;
   background: #80c7d6;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -24,23 +26,28 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 h2 {
   color: #404040;
   font-size: 1.6em;
   margin-bottom: 1.25em;
 }
+
 h3 {
   color: #404040;
   font-size: 1em;
   margin-bottom: 1.25em;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
   color: #3b80d1;
 }
+
 hr {
   border: 0;
   height: 0;
@@ -61,6 +68,7 @@ button {
   border: solid 1px #ccc;
   outline: none;
 }
+
 button {
   color: white;
   background: #4188dc;
@@ -84,18 +92,22 @@ button {
   box-shadow: 0 3px rgba(0,0,0, .1);
   overflow: hidden;
 }
+
 header {
   background: #edeff0;
   margin-bottom: 2em;
 }
+
 .main-content {
   padding: 1em 2em;
 }
+
 .group:after {
   content: "";
   display: table;
   clear: both;
 }
+
 .attraction {
   margin-bottom: 1em;
 }
@@ -105,10 +117,12 @@ header {
 .attraction-img {
   width: 70px;
 }
+
 .city-img {
   width: 100%;
   border-radius: .3em;
 }
+
 .not-found {
   text-align: center;
 }
@@ -128,6 +142,7 @@ header {
   padding: 1em;
   transition: .2s;
 }
+
 .main-nav a:hover,
 .main-nav .active {
   color: #fff;
@@ -139,9 +154,11 @@ header {
 .attraction-nav li {
   display: inline-block;
 }
+
 .attraction-nav li + li {
   margin-left: .6em;
 }
+
 .attraction-nav a {
   font-size: .85em;
   color: #7d7d7d;
@@ -150,6 +167,7 @@ header {
   background: #eaebeb;
   transition: .2s;
 }
+
 .attraction-nav a:hover,
 .attraction-nav a.active {
   color: #fff;
@@ -162,11 +180,13 @@ header {
   background: #54606b;
   color: #fff;
 }
+
 .icn-logo i {
   font-size: 2.45em;
   line-height: 0;
   margin-top: 30px;
 }
+
 .icn-error {
   font-size: 3.2em;
   margin-bottom: .25em;
@@ -177,32 +197,40 @@ header {
 ==================================== */
 
 @media (min-width: 0) and (max-width: 768px) { 
+  
   body {
     padding-top: .8em;
   }
+  
   .home a {
     border-color: transparent;
   }
+  
    .icn-logo {
      display: block;
      width: 100%;
      text-align: center;
      padding-bottom: 4px;
    }
+  
    .main-nav a {
      border-top: 2px solid transparent;
      border-bottom: 2px solid transparent;
    }
+  
    .main-nav a:hover {
      border-color: rgba(0,0,0, .1);
    }
+  
    .attractions h2 {
      margin-bottom: 0;
    }
+  
    .attraction-nav {
      display: block;
      margin: 1.5em 0 3.2em;
    }
+  
    .home a,
    input,
    button {
@@ -211,55 +239,70 @@ header {
      margin-bottom: 1em;
    }
 }
+
 @media (min-width: 769px) {
+  
   body {
     padding-top: 3em;
   }
+  
   .home a {
     border-color: #3b80d1;
   }
+  
   .media img,
   .media > div,
   .city {
     float: left;
   }
+  
   .media > div {
     width: 85.1%;
     margin-left: 1.5em;
   } 
+  
   .city {
     width: 48.73%;
     margin-bottom: 1.5em;
   }
+  
   .city + .city {
     margin-left: 2.54%;
   }
+  
   .city:nth-child(2n+3) {
     clear: left;
     margin-left: 0;
   }
+  
   /* MAIN NAV -------- */
+  
   .icn-logo {
     margin-right: auto;
     padding: 0 2em;
   }
+  
   header,
   .main-nav {
     display: flex;
     flex-wrap: wrap;
   }
+  
   .main-nav a {
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
     padding: 1.25em 1.5em;
   }
+  
   .main-nav a:hover {
     border-color: rgba(0,0,0, .1);
   }
+  
   /* attraction NAV -------- */
   .attraction-nav {
     float: right;
   } 
+  
   .attractions h2 {
     float: left;
   }
